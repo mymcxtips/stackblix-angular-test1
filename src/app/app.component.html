@@ -1,0 +1,10 @@
+{{ data | json }}
+<p>
+  {{ dupData | json }}
+</p>
+
+<p>Start editing to see some magic happen :)</p>
+<hello [inputdata]="data"> </hello>
+<p>
+  <button (click)="updateData()">Update Data</button>
+</p>
